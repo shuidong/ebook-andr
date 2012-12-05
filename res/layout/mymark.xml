@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mymarktitle"
+        android:contentDescription="@string/app_name" >
+    </ImageView>
+
+    <ListView
+        android:id="@+id/markid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/markline"
+        android:dividerHeight="1.5dip" >
+    </ListView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mymarkdown"
+        android:contentDescription="@string/app_name" >
+    </ImageView>
+
+</LinearLayout>

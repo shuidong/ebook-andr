@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">木鱼书社</string>
+    <string name="about_book">关于本书</string>
+    <string name="local_book">木鱼书社</string>
+    <string name="input_book">导入本地书目</string>
+    <string name="feedback">反馈</string>
+    <string name="aboue_text1">当前版本:v2.0</string>
+    <!-- bookpop.xml -->
+    <string name="bookpop_size">字体</string>
+    <string name="bookpop_light">亮度</string>
+    <string name="bookpop_card">书签</string>
+    <string name="bookpop_send">跳转</string>
+    <!-- in.xml -->
+    <string name="in_refush">刷新</string>
+
+</resources>

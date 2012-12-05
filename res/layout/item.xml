@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="120dip" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@drawable/itemback"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/itemback"
+        android:layout_width="fill_parent"
+        android:layout_height="118dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/itemback1"
+        android:contentDescription="@string/app_name" >
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="9dip" >
+
+        <ImageView
+            android:id="@+id/ItemImage"
+            android:layout_width="73dip"
+            android:layout_height="103dip"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/bookName"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dip"
+            android:layout_marginTop="16dip"
+            android:gravity="center"
+            android:textColor="#4e2834"
+            android:textSize="11dip" >
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="7dip" >
+
+        <TextView
+            android:id="@+id/ItemTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ItemImage"
+            android:paddingLeft="83dip"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="17dip" />
+
+        <TextView
+            android:id="@+id/ItemTitle1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ItemTitle"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/ItemImage"
+            android:paddingLeft="83dip"
+            android:text=""
+            android:textColor="#949194"
+            android:textSize="12dip" />
+
+        <TextView
+            android:id="@+id/ItemTitle2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ItemTitle1"
+            android:layout_toRightOf="@+id/ItemImage"
+            android:paddingLeft="83dip"
+            android:textColor="#a46120"
+            android:textSize="10dip" />
+
+        <ImageView
+            android:id="@+id/ItemImage9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ItemTitle2"
+            android:layout_toRightOf="@+id/ItemImage"
+            android:contentDescription="@string/app_name"
+            android:paddingLeft="78dip" />
+
+        <TextView
+            android:id="@+id/last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/ItemTitle"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="5dip"
+            android:textColor="#949194"
+            android:textSize="12dip" >
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

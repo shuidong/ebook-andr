@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mymarkback" >
+
+    <ImageView
+        android:id="@+id/markImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="10dip"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/reader_bookmarks" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/markText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@id/markImage1"
+        android:lines="1"
+        android:text=""
+        android:textColor="#000000" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/markText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="40dip"
+        android:layout_toRightOf="@id/markImage1"
+        android:text="" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/markImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dip"
+        android:layout_marginTop="30dip"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/reader_delete_bookmark" >
+    </ImageView>
+
+</RelativeLayout>
